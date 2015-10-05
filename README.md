@@ -21,6 +21,7 @@ Reasoning behind Technical choices:
 I used Java as the progamming language and Selenium Webdriver as the open source tool, as Selenium has good libraries and interfaces to automate a web application. It is used to create robust, browser-based regression automation suites and tests. Java supports Selenium calls very conveniently.
 
 Trade Offs, What I would do differntly:
+I created this project using FireFox browser
 I would use a different strategy to slect an item to add to the cart using List <WebElement> to get a list of all items and select one from the list. My laptop is controlled by IT of the company I work for, so Java 1.8 cannot be installed to recognize List <WebElement>. 
 
 Create another mechanism to wait for the page load to finish in between browser clicks, instead of introducing wait time.
